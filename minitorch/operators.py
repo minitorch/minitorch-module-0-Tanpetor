@@ -110,7 +110,7 @@ def addLists(lst1, lst2):
     return zipWith(add, lst1, lst2)
 
 
-def sum(lst):
+def sum_(lst):
     return reduce(add, lst, 0.0)
 
 
